@@ -44,6 +44,18 @@ html, body {
 	box-sizing: border-box;
 	margin: 5px;
 }
+li.best {
+	list-style-type: disc;
+}
+li {
+	list-style-type: square;
+}
+ul {
+	margin-left: 20px;
+}
+li:hover {
+	color: red;
+}
 .content {
 	border: 1px solid black;
 	width: calc(80% - 10px);
@@ -52,4 +64,18 @@ html, body {
 	box-sizing: border-box;
 	float: left;
 	margin: 5px;
+	box-shadow: 0 0 10px;
+}
+.image {
+	width: 20%;
+	float:right;
+	
+}
+.movie-description {
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+.description {
+	width: 100%;
 }
