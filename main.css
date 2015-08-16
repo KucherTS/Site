@@ -7,11 +7,11 @@ html, body {
 }
 .layout  {
 	display: table;
+	border-spacing: 5px;
 }
 .column1 {
 	display: table-column;
 	width: 20%;
-	background-color: grey;
 }
 .column2 {
 	display: table-column;
