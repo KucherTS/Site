@@ -77,17 +77,22 @@ li:hover {
 p {
 	text-indent: 15px;
 }
-.image {
-	width: 15%;
-	float:right;
-}
-.movie-description {
-	width: 75%;
-}
 .description {
-	width: calc(100%-15%);
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 10px;
+}
+.movie-description {
+	display: table-row;
+}
+.movie-text-description {
+	display: table-cell;
+	vertical-align: top;
+}
+.image {
+	width: 200px;
+}
+.movie-image {
+	display: table-cell;
 }
